@@ -86,30 +86,32 @@
     font-size: 18px;
   }
   hr {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 20px;
     border: 1px solid rgb(209, 201, 201);
   }
   
-  /* New Tasks */
+  /* Container tutte le sezioni */
   
   .container-sections {
-      display: inline-block;
-      position: relative;
-      margin-left: 50px;
-    
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  /* Container New Tasks */
+  .sez-new {
+    margin-bottom: 40px;
   }
   
   /* Down arrow */
-
+  
   .down-arrow {
-      font-size: 40px;
-      vertical-align: middle;
-
+    font-size: 30px;
+    vertical-align: middle;
   }
   .s-titles {
-      color: rgb(27, 26, 26);
-      
+    color: rgb(27, 26, 26);
   }
   
   /* Tasks */
@@ -119,7 +121,7 @@
     font-weight: bold;
     color: rgb(102, 101, 101);
     vertical-align: middle;
-    
+    margin-left: 5px;
   }
   
   /* Checkmark */
@@ -127,6 +129,16 @@
     width: 50px;
     height: 50px;
     border: 1px solid rgb(66, 236, 66);
+    padding: 3px 2px;
+    border-radius: 50%;
+    margin-left: 6px;
+  }
+  
+  /* Xmark */
+  .xmark {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(238, 9, 9);
     padding: 3px 2px;
     border-radius: 50%;
     margin-left: 6px;
@@ -145,5 +157,14 @@
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 15px;
+  }
+  
+  /* Container Today */
+  .sez-today {
+  }
+  
+  /* Container Upcoming */
+  .sez-upcoming {
+    margin-top: 40px;
   }
   
