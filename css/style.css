@@ -1,231 +1,223 @@
 /* Border box */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Sfondo pagina */
-  body {
-    background-color: rgb(34, 216, 155);
-  }
-  
-  /* Banner top  */
-  .top-banner {
-    margin: 0% auto;
-    background: rgb(255, 255, 255);
-    display: block;
-    width: 100%;
-    height: 60px;
-    padding-bottom: 52px;
-  }
-  
-  /* Logo  */
-  .logo {
-    vertical-align: 40px;
-    position: absolute;
-    padding-left: 10px;
-    padding-top: 5px;
-  }
-  
-  /* Titolo */
-  
-  .titolo {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 45px;
-    font-weight: bolder;
-    padding-left: 65px;
-  }
-  
-  /* Sezione centrale  */
-  
-  .container-main {
-    width: 70%;
-    height: 600px;
-    background: white;
-    margin: 40px auto;
-    border-radius: 5px;
-    padding-top: 1px;
-  }
-  
-  /* Add buttons */
-  
-  .add-position {
-    margin-left: 60px;
-    margin-top: 20px;
-  }
-  
-  .add1 {
-    width: 100px;
-    height: 35px;
-    background: rgb(70, 94, 231);
-    border-radius: 8px;
-    border: 1px solid rgb(70, 94, 231);
-  }
-  
-  .add2 {
-    width: 150px;
-    height: 35px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    border: 1px solid rgb(134, 134, 136);
-  }
-  
-  /* Testo bottoni add */
-  .button-text {
-    color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .button-text2 {
-    color: rgb(134, 134, 136);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  hr {
-    margin-bottom: 40px;
-    margin-top: 20px;
-    border: 1px solid rgb(209, 201, 201);
-  }
-  
-  /* Container tutte le sezioni */
-  
-  .container-sections {
-      display: inline-block;
-      position: relative;
-      margin-left: 50px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* Container New Tasks */
-  .sez-new {
-    margin-bottom: 40px;
-  }
-  
-  /* Down arrow */
+/* Sfondo pagina */
+body {
+  background-color: rgb(34, 216, 155);
+}
 
-  .down-arrow {
-      font-size: 30px;
-      vertical-align: middle;
+/* Banner top  */
+.top-banner {
+  margin: 0% auto;
+  background: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding-bottom: 52px;
+}
 
-  }
-  .s-titles {
-      color: rgb(27, 26, 26);
-      
-  }
-  
-  /* Tasks */
-  .tasks {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(102, 101, 101);
-    vertical-align: middle;
-    margin-left: 5px;
-    
-  }
-  
-  /* Checkmark */
-  .checkmark {
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgb(66, 236, 66);
-    padding: 3px 2px;
-    border-radius: 50%;
-    margin-left: 3px;
-  }
+/* Logo  */
+.logo {
+  vertical-align: 40px;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 5px;
+}
 
-   /* Xmark */
-   .xmark {
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgb(238, 9, 9);
-    padding: 3px 2px;
-    border-radius: 50%;
-    margin-left: 3px;
-   }
-  
-  /* Editorial */
-  .editorial-b {
-    width: 70px;
-    height: 25px;
-    background: rgb(70, 94, 231);
-    border-radius: 11px;
-    border: 1px solid rgb(70, 94, 231);
-  }
-  
-  .button-text3 {
-    color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 15px;
-  }
-  
-  /* Container Today */
-  .sez-today {
+/* Titolo */
 
-  }
+.titolo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+  padding-left: 65px;
+}
 
-  /* Today buttons */
+/* Sezione centrale  */
 
-  .q1 {
-    width: 70px;
-    height: 25px;
-    background: rgb(240, 49, 192);
-    border-radius: 11px;
-    border: 1px solid rgb(240, 49, 192);
-  }
+.container-main {
+  width: 70%;
+  height: 750px;
+  background: white;
+  margin: 40px auto;
+  border-radius: 5px;
+  padding-top: 1px;
+}
 
+/* Add buttons */
 
-  .recruiting {
-    width: 80px;
-    height: 25px;
-    background: rgb(8, 192, 63);
-    border-radius: 11px;
-    border: 1px solid rgb(8, 192, 63);
-  }
+.add-position {
+  margin-left: 60px;
+  margin-top: 20px;
+}
 
-  .summit {
-    width: 70px;
-    height: 25px;
-    background: rgb(241, 144, 18);
-    border-radius: 11px;
-    border: 1px solid rgb(241, 144, 18);
-  }
+.add1 {
+  width: 100px;
+  height: 35px;
+  background: rgb(70, 94, 231);
+  border-radius: 8px;
+  border: 1px solid rgb(70, 94, 231);
+}
 
+.add2 {
+  width: 150px;
+  height: 35px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(134, 134, 136);
+}
 
-  
-  /* Container Upcoming */
-  .sez-upcoming {
-    margin-top: 40px;
-  }
+/* Testo bottoni add */
+.button-text {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
 
-   /* Upcoming buttons */
+.button-text2 {
+  color: rgb(134, 134, 136);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+hr {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border: 1px solid rgb(209, 201, 201);
+}
 
-  .meeting {
-    width: 70px;
-    height: 25px;
-    background: rgb(10, 221, 56);
-    border-radius: 11px;
-    border: 1px solid rgb(10, 221, 56);
-  }
+/* Container tutte le sezioni */
 
+.container-sections {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+}
 
-  .website {
-    width: 80px;
-    height: 25px;
-    background: rgb(207, 12, 214);
-    border-radius: 11px;
-    border: 1px solid rgb(207, 12, 214);
-  }
+/* Container New Tasks */
 
-  .sales {
-    width: 70px;
-    height: 25px;
-    background: rgb(165, 233, 6);
-    border-radius: 11px;
-    border: 1px solid rgb(165, 233, 6);
-  }
+.sez-new {
+  margin-bottom: 40px;
+}
 
-  
+/* Down arrow */
+
+.down-arrow {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.s-titles {
+  color: rgb(27, 26, 26);
+}
+
+/* Spazio tra le linee */
+.line {
+  padding-bottom: 20px;
+}
+
+/* Tasks */
+.tasks {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(102, 101, 101);
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Checkmark */
+.checkmark {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(66, 236, 66);
+  padding: 3px 2px;
+  border-radius: 50%;
+  margin-left: 1px;
+}
+
+/* Xmark */
+.xmark {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(238, 9, 9);
+  padding: 3px 2px;
+  border-radius: 50%;
+  margin-left: 1px;
+}
+
+/* Editorial */
+.editorial-b {
+  width: 70px;
+  height: 25px;
+  background: rgb(70, 94, 231);
+  border-radius: 11px;
+  border: 1px solid rgb(70, 94, 231);
+}
+
+.button-text3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+/* Today buttons */
+
+.q1 {
+  width: 70px;
+  height: 25px;
+  background: rgb(240, 49, 192);
+  border-radius: 11px;
+  border: 1px solid rgb(240, 49, 192);
+}
+
+.recruiting {
+  width: 80px;
+  height: 25px;
+  background: rgb(8, 192, 63);
+  border-radius: 11px;
+  border: 1px solid rgb(8, 192, 63);
+}
+
+.summit {
+  width: 70px;
+  height: 25px;
+  background: rgb(241, 144, 18);
+  border-radius: 11px;
+  border: 1px solid rgb(241, 144, 18);
+}
+
+/* Container Upcoming */
+.sez-upcoming {
+  margin-top: 40px;
+}
+
+/* Upcoming buttons */
+
+.meeting {
+  width: 70px;
+  height: 25px;
+  background: rgb(10, 221, 56);
+  border-radius: 11px;
+  border: 1px solid rgb(10, 221, 56);
+}
+
+.website {
+  width: 80px;
+  height: 25px;
+  background: rgb(207, 12, 214);
+  border-radius: 11px;
+  border: 1px solid rgb(207, 12, 214);
+}
+
+.sales {
+  width: 70px;
+  height: 25px;
+  background: rgb(165, 233, 6);
+  border-radius: 11px;
+  border: 1px solid rgb(165, 233, 6);
+}
