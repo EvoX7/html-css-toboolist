@@ -94,24 +94,26 @@
   /* Container tutte le sezioni */
   
   .container-sections {
-    display: inline-block;
-    position: relative;
-    margin-left: 50px;
+      display: inline-block;
+      position: relative;
+      margin-left: 50px;
   }
-  
+
   /* Container New Tasks */
   .sez-new {
     margin-bottom: 40px;
   }
   
   /* Down arrow */
-  
+
   .down-arrow {
-    font-size: 30px;
-    vertical-align: middle;
+      font-size: 30px;
+      vertical-align: middle;
+
   }
   .s-titles {
-    color: rgb(27, 26, 26);
+      color: rgb(27, 26, 26);
+      
   }
   
   /* Tasks */
@@ -122,6 +124,7 @@
     color: rgb(102, 101, 101);
     vertical-align: middle;
     margin-left: 5px;
+    
   }
   
   /* Checkmark */
@@ -131,18 +134,18 @@
     border: 1px solid rgb(66, 236, 66);
     padding: 3px 2px;
     border-radius: 50%;
-    margin-left: 6px;
+    margin-left: 4px;
   }
-  
-  /* Xmark */
-  .xmark {
+
+   /* Xmark */
+   .xmark {
     width: 50px;
     height: 50px;
     border: 1px solid rgb(238, 9, 9);
     padding: 3px 2px;
     border-radius: 50%;
-    margin-left: 6px;
-  }
+    margin-left: 4px;
+   }
   
   /* Editorial */
   .editorial-b {
@@ -161,10 +164,68 @@
   
   /* Container Today */
   .sez-today {
+
   }
+
+  /* Today buttons */
+
+  .q1 {
+    width: 70px;
+    height: 25px;
+    background: rgb(240, 49, 192);
+    border-radius: 11px;
+    border: 1px solid rgb(240, 49, 192);
+  }
+
+
+  .recruiting {
+    width: 80px;
+    height: 25px;
+    background: rgb(8, 192, 63);
+    border-radius: 11px;
+    border: 1px solid rgb(8, 192, 63);
+  }
+
+  .summit {
+    width: 70px;
+    height: 25px;
+    background: rgb(241, 144, 18);
+    border-radius: 11px;
+    border: 1px solid rgb(241, 144, 18);
+  }
+
+
   
   /* Container Upcoming */
   .sez-upcoming {
     margin-top: 40px;
   }
+
+   /* Upcoming buttons */
+
+  .meeting {
+    width: 70px;
+    height: 25px;
+    background: rgb(10, 221, 56);
+    border-radius: 11px;
+    border: 1px solid rgb(10, 221, 56);
+  }
+
+
+  .website {
+    width: 80px;
+    height: 25px;
+    background: rgb(207, 12, 214);
+    border-radius: 11px;
+    border: 1px solid rgb(207, 12, 214);
+  }
+
+  .sales {
+    width: 70px;
+    height: 25px;
+    background: rgb(165, 233, 6);
+    border-radius: 11px;
+    border: 1px solid rgb(165, 233, 6);
+  }
+
   
